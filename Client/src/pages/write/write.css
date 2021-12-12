@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.write{
+    padding-top: 30px;
+}
+
+.writeImg{
+    width: 70vw;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.writeForm{
+position: relative;
+}
+
+.writeFormGroup{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    width: 70vw;
+}
+
+.writeIcon{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(121, 119, 119);
+    cursor: pointer;
+}
+
+.title{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.title:focus{
+    outline: none;
+}
+
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    color: rgb(121, 119, 119);
+}
+
+.writeInput:focus{
+    outline: none;
+}
+
+.writeText{
+    font-size: 20px;
+    height: 100vh;
+}
+
+.writeSubmit{
+position: absolute;
+top: 15px;
+right: 50px;
+padding: 10px;
+width: 110px;
+font-family: 'Poppins', sans-serif;
+background-color: #5457ff;
+border: none;
+color: white;
+font-size: 14px;
+font-weight: 600;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.category1{
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    color: rgb(121, 119, 119);
+    border-color: rgb(238, 117, 117);
+    margin-top: 15px;
+}
+
+.category1:focus{
+    outline: none;
+}
+
+.category2{
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    color: rgb(121, 119, 119);
+    border-color: rgb(238, 117, 117);
+}
+
+.category2:focus{
+    outline: none;
+}

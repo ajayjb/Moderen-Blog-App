@@ -1,0 +1,102 @@
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex : 9;
+    padding: 20px;
+}
+
+.formSettings{
+display: flex;
+flex-direction: column;
+}
+
+.settingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.settingUpdateTitle{
+font-size: 30px;
+color: lightcoral;
+margin-bottom: 20px;
+font-size: 500;
+}
+
+.settingDelete{
+font-size: 15px;
+color: red;
+margin-bottom: 20px;
+cursor: pointer;
+}
+
+.profileImage{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px ;
+}
+
+.profileImageUpload{
+    background-color: #C89595;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.formSettings > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.formSettings > input{
+    margin: 15px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.settingsSubmit{
+    padding: 10px;
+    width: 200px;
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #5457ff;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.essage{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+    margin-left: 41.125%;
+}

@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* scrollbar-width: thin;
+    scrollbar-color: red green; */
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
